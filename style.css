@@ -186,3 +186,30 @@ nav{
     border-radius: 999px;
 }
 
+
+
+/*---focus section---*/
+
+.focus{
+    width: 1140px;
+    text-align: center;
+    margin: 137px auto 0px;
+    padding: 70px 150px;
+    border: 1px solid rgb(241, 241, 241);
+    border-radius: 14px;
+}
+.focus h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+.focus p{
+    color: rgba(0, 0, 0, 0.5);
+}
+.focus img{
+    border-radius: 48px;
+}
+.focus button{
+    width: 195px;
+    font-size: 16px;
+}
+
