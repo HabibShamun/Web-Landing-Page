@@ -1,0 +1,50 @@
+/*-----fonts---*/
+.raleway-font{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/*shared styles*/
+/*start*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.logo-style{
+    color: rgba(78, 71, 255, 1);
+    font-weight: 900; 
+}
+.button-primary{
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+/*end*/
+
+
+/*------navbar-----*/
+
+nav h1{
+    font-size: 34px;
+}
+nav button{
+    width: 174px;
+    height: 48px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 150px 0px ;
+}
+
+/*-----banner----*/
