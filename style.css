@@ -138,6 +138,8 @@ background-color: #f5f8ff;
 }
 .Productive-Users-title{
     padding: 50px 142px;
+    font-size: 38px;
+    font-weight: bold;
 }
 .data{
     columns: rgba(37, 36, 50, 1);
