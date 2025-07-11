@@ -162,6 +162,10 @@ background-color: #f5f8ff;
     margin: 0px auto;
 
 }
+.user-review h2{
+    font-size: 42px;
+    font-weight: bold;
+}
 .card-container{
     margin-top: 50px;
     display: flex;
