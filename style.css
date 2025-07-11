@@ -174,8 +174,10 @@ background-color: #f5f8ff;
 }
 .card{
     width: 366px;
-    height: 243px;
-    padding: 20px 30px 0px;
+    padding: 20px 30px 20px;
+    border: none;
+    border-radius: 14px;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .user{
@@ -185,11 +187,6 @@ background-color: #f5f8ff;
 
 .card-spacing{
     margin-bottom: 24px;
-}
-.card{
-    border: none;
-    border-radius: 14px;
-    background-color: rgba(255, 255, 255, 0.5);
 }
 .user h5{
     color: rgba(117, 117, 117, 1);
