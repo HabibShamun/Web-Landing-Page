@@ -61,6 +61,8 @@ nav{
 }
 
 /*-----banner----*/
+
+
 .banner{
 
     width: 905px;
@@ -80,7 +82,7 @@ nav{
 }
 
 
-/*---main---*/
+/*---main section---*/
 main{
 background-color: #f5f8ff;
 }
@@ -116,6 +118,8 @@ background-color: #f5f8ff;
     width: 229px;
 }
 
+
+
 /*productive user section*/
 .Productive-Users{
     width: 1140px;
@@ -149,6 +153,8 @@ background-color: #f5f8ff;
     font-weight:600 ;
     color: rgba(0, 0, 0, 0.5);
 }
+
+
 /*---user review section---*/
 .user-review{
    
@@ -219,7 +225,7 @@ background-color: #f5f8ff;
     font-size: 16px;
 }
 
-/*-----Get-In-Touch-------*/
+/*-----Get-In-Touch section-------*/
 .Get-In-Touch{
     width: 1140px;
     display: flex;
@@ -256,4 +262,41 @@ background-color: #f5f8ff;
 .Get-In-Touch h1{
     font-size: 97px;
     font-weight: bold;
+}
+
+/*------footer-----*/
+
+footer{
+    width: 1140px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    
+}
+footer ul a{
+    text-decoration: none;
+    color: rgba(137, 135, 161, 1);
+}
+footer ul li{
+    list-style: none;
+}
+footer h1{
+    font-size: 100px;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+footer p{
+    color: rgba(137, 135, 161, 1);
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+.footer-div{
+    width: 531px;
+    height: 221px;
+    margin: 104px auto;
 }
