@@ -29,6 +29,9 @@
     cursor: pointer;
     height: 48px;
 }
+.button-primary:hover{
+    background-color: #7772ff;
+}
 /*end*/
 
 /*---header----*/
@@ -78,7 +81,9 @@ nav{
 
 
 /*---main---*/
-
+main{
+background-color: #f5f8ff;
+}
 /*---action---*/
 
 .action{
@@ -86,7 +91,8 @@ nav{
     justify-content: space-between;
     align-items: center;
     width: 1140px;
-    margin: 116px auto;
+    margin: 0px auto;
+    padding:116px 0px
 }
 
 .action .action-right img{
@@ -173,7 +179,7 @@ nav{
 .card{
     border: none;
     border-radius: 14px;
-    border: 1px solid rgb(241, 241, 241);
+    background-color: rgba(255, 255, 255, 0.5);
 }
 .user h5{
     color: rgba(117, 117, 117, 1);
@@ -194,9 +200,9 @@ nav{
     width: 1140px;
     text-align: center;
     margin: 137px auto 0px;
-    padding: 70px 150px;
-    border: 1px solid rgb(241, 241, 241);
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 14px;
+    padding: 70px 0px;
 }
 .focus h1{
     font-weight: bold;
@@ -213,3 +219,41 @@ nav{
     font-size: 16px;
 }
 
+/*-----Get-In-Touch-------*/
+.Get-In-Touch{
+    width: 1140px;
+    display: flex;
+    align-items: center;
+    margin: 92px auto 0px;
+    gap: 115px;
+    padding: 71px 0px;
+}
+
+.Get-In-Touch-right input,textarea{
+    display: block;
+    width: 497px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    resize: none;
+}
+.Get-In-Touch-right label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.Get-In-Touch-right input[type="submit"] {
+    color: rgba(255, 255, 255, 1);
+    height: 62px;
+}
+
+.Get-In-Touch h1{
+    font-size: 97px;
+    font-weight: bold;
+}
